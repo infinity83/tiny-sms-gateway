@@ -26,22 +26,27 @@ On Android Project:
 
 2) Assign project number to appid global variable
 
-3) Include this library project and Build your project
+3) Include this library project in your main project and build main project
 
-On Server side
+On Server:
+==========
 
-1) Create database and import the gateway.sql file into  database from this repository.
+1) Create database and import the gateway.sql file into  database from this repository
 
 2) In php goto to lib->config.php and configure your database parameters
 
 3) Goto Google API console, click on API access option, copy the API key
 
 4) Goto to lib->SmsManager.php, in SmsManager class assign the API key copied from in constructor function of class
+   
    Exp:   $this->key = 'AIzaSyBtvXEVlpJO8pVyERs2_RXXXXXXXXXXX';
 
 5) Initiate this SmsManager class and call sendSMS() method.
 
 Done!
+
 Your rock solid SMSgateway is ready now.
 
-Please be open for any contribution.
+
+
+Please be open for any Suggestion and contribution.
