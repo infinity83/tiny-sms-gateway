@@ -4,19 +4,23 @@ android-sms-gateway
 A android library project , which  turn the android phone into SMS gateway!
 
 Prerequisite:
+=============
 
 1) Android phone with atleast one registered Google account
 
 2) php-mysql stack on server
 
-How to setup?
-
+How to setup project:
+=====================
 
 1) Go to https://code.google.com/apis/console/ 
 
 2) Login and create new project by filling simple form
 
+3) Click overview tab and copy project number
+
 On Android Project:
+===================
 
 1) Goto Init class in main package of library project
 
