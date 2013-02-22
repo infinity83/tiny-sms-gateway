@@ -1,4 +1,4 @@
-android-sms-gateway
+tiny-sms-gateway
 ==================
 
 A android library project , which  turn the android phone into SMS gateway!
